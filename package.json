@@ -1,0 +1,42 @@
+{
+  "name": "cli-starter",
+  "version": "1.0.0",
+  "description": "A Command Line Interface starter boiler plate",
+  "main": "bin/cli.js",
+  "bin": {
+    "cli-starter": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "dev": "node bin/cli.js"
+  },
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "author": {
+    "name": "Thomas G. aka Drozerah",
+    "email": "drozerah@gmail.com",
+    "url": "https://github.com/Drozerah"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/Drozerah/cli-starter.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drozerah/cli-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Drozerah/cli-starter/issues"
+  },
+  "keywords": [
+    "cli",
+    "cli-starter",
+    "command-line",
+    "starter",
+    "npm",
+    "nodejs",
+    "node-cli",
+    "boilerplater",
+    "utility-application"
+  ],
+  "private": true
+}
