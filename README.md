@@ -63,6 +63,7 @@ This command will execute the `cli-starter\bin\cli.js` JavaScript file, it can a
 __Notes:__
 
 In order to prevent accidental publication of you project, the `"private"` key is set to `true` by default - to publish your project to the NPM registry you must turn the value to `false`
+
 `package.json`
 ```diff
 {
@@ -74,6 +75,7 @@ In order to prevent accidental publication of you project, the `"private"` key i
 ```
 
 `npm command`
+
 If you want or have to unregister your project, you'll need to unbind the symlink created from your project's directory to your global node modules, keep in mind to:
 ````bash
 $ npm unlink
