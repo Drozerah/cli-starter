@@ -17,7 +17,11 @@ This material comes with the minimum settings and files that are required to sta
 ## Install
 
 ````bash
+# GET the latest version
 $ git clone https://github.com/Drozerah/cli-starter.git
+
+# Rapid install
+$ git clone https://github.com/Drozerah/cli-starter.git my-project-name && cd my-project-name && npm install && code . && exit
 ````
 Then install globally: 
 ````bash
